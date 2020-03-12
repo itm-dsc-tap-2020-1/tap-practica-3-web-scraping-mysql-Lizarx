@@ -1,3 +1,11 @@
+#Crear base de datos
+"""
+> create database Paginas_web;
+> use Paginas_web;
+> create table pagina(url varchar(70) primary key,status BOOLEAN);
+"""
+
+
 from urllib.request import urlopen
 from bs4 import BeautifulSoup
 import mysql.connector as mysql
